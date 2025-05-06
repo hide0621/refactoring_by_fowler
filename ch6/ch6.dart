@@ -1,3 +1,6 @@
+import 'function/extract_function.dart';
+
 void ch6() {
-  print("Hello, World!");
+  final invoice = Invoice("John Doe");
+  printOwing(invoice);
 }

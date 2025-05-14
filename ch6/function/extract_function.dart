@@ -17,7 +17,7 @@ void printOwing(Invoice invoice) {
     return outstanding;
   }
 
-  // 請求書の合計金額を計算するローカル関数
+  // 誰にどれくらいの請求がなされるのかを表示するローカル関数
   void printDetails(double outstanding) {
     print("name: ${invoice.customer}");
     print("amount: $outstanding");

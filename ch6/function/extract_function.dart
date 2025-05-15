@@ -18,6 +18,7 @@ void printOwing(Invoice invoice) {
   }
 
   // 誰にどれくらいの請求がなされるのかを表示するローカル関数
+  // 請求書の詳細を表示するローカル関数とも言える
   void printDetails(double outstanding) {
     print("name: ${invoice.customer}");
     print("amount: $outstanding");
